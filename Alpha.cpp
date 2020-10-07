@@ -1,10 +1,13 @@
+//librarey add
 #include <iostream>
 
-using namespace std;
-
+//main funtion part
 int main ()
 {
 	
-	for (int i=0;i<5;i++)
-		cout<<"I love Pakistan."<<endl;	
+	string name;
+	std:cout<<"enter your name "<<endl;
+	std:cin>>name;
+	std:cout<<name<<" Wellcome HacktoberFest 2020"<<endl;
+	return 0;
 }
